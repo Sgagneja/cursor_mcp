@@ -1,1 +1,1 @@
-# agentic_rag
+# cursor_mcp
