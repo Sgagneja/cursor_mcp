@@ -1,0 +1,167 @@
+2025-04-22 14:35:40,514 - __main__ - INFO - Initializing MCP server components...
+2025-04-22 14:35:40,518 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-04-22 14:35:42,038 - sentence_transformers.SentenceTransformer - INFO - 2 prompts are loaded, with the keys: ['query', 'text']
+2025-04-22 14:35:42,042 - __main__ - INFO - MCP server components initialized
+2025-04-22 14:35:42,045 - __main__ - INFO - Starting document ingestion...
+2025-04-22 14:35:44,725 - __main__ - INFO - Document ingestion complete
+2025-04-22 14:35:44,725 - __main__ - INFO - Starting MCP server with stdio transport...
+2025-04-22 14:36:10,708 - __main__ - ERROR - Error in MCP server: unhandled errors in a TaskGroup (1 sub-exception)
+2025-04-22 14:43:25,782 - __main__ - INFO - Initializing MCP server components...
+2025-04-22 14:43:25,787 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-04-22 14:43:27,406 - sentence_transformers.SentenceTransformer - INFO - 2 prompts are loaded, with the keys: ['query', 'text']
+2025-04-22 14:43:27,409 - __main__ - INFO - MCP server components initialized
+2025-04-22 14:43:27,412 - __main__ - INFO - Starting document ingestion...
+2025-04-22 14:43:30,101 - __main__ - INFO - Document ingestion complete
+2025-04-22 14:43:30,101 - __main__ - INFO - Starting MCP server with stdio transport...
+2025-04-22 14:49:21,262 - __main__ - INFO - Initializing MCP server components...
+2025-04-22 14:49:21,272 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-04-22 14:49:22,912 - sentence_transformers.SentenceTransformer - INFO - 2 prompts are loaded, with the keys: ['query', 'text']
+2025-04-22 14:49:22,915 - __main__ - INFO - MCP server components initialized
+2025-04-22 14:49:22,917 - __main__ - INFO - Starting document ingestion...
+2025-04-22 14:49:31,243 - __main__ - INFO - Document ingestion complete
+2025-04-22 14:49:31,243 - __main__ - INFO - Starting MCP server with stdio transport...
+2025-04-22 14:51:19,977 - __main__ - ERROR - Error in MCP server: unhandled errors in a TaskGroup (1 sub-exception)
+2025-04-22 14:52:30,099 - __main__ - INFO - Starting MCP server...
+2025-04-22 14:52:30,100 - __main__ - INFO - Initializing MCP server components...
+2025-04-22 14:52:30,101 - mcp.server.lowlevel.server - DEBUG - Initializing server 'cursor-mcp'
+2025-04-22 14:52:30,101 - mcp.server.lowlevel.server - DEBUG - Registering handler for ListToolsRequest
+2025-04-22 14:52:30,101 - mcp.server.lowlevel.server - DEBUG - Registering handler for CallToolRequest
+2025-04-22 14:52:30,101 - mcp.server.lowlevel.server - DEBUG - Registering handler for ListResourcesRequest
+2025-04-22 14:52:30,101 - mcp.server.lowlevel.server - DEBUG - Registering handler for ReadResourceRequest
+2025-04-22 14:52:30,101 - mcp.server.lowlevel.server - DEBUG - Registering handler for PromptListRequest
+2025-04-22 14:52:30,101 - mcp.server.lowlevel.server - DEBUG - Registering handler for GetPromptRequest
+2025-04-22 14:52:30,101 - mcp.server.lowlevel.server - DEBUG - Registering handler for ListResourceTemplatesRequest
+2025-04-22 14:52:30,105 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-04-22 14:52:30,107 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-04-22 14:52:30,258 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /BAAI/bge-small-en-v1.5/resolve/main/modules.json HTTP/1.1" 200 0
+2025-04-22 14:52:30,364 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /BAAI/bge-small-en-v1.5/resolve/main/config_sentence_transformers.json HTTP/1.1" 200 0
+2025-04-22 14:52:30,461 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /BAAI/bge-small-en-v1.5/resolve/main/README.md HTTP/1.1" 200 0
+2025-04-22 14:52:30,559 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /BAAI/bge-small-en-v1.5/resolve/main/modules.json HTTP/1.1" 200 0
+2025-04-22 14:52:30,657 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /BAAI/bge-small-en-v1.5/resolve/main/sentence_bert_config.json HTTP/1.1" 200 0
+2025-04-22 14:52:30,754 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /BAAI/bge-small-en-v1.5/resolve/main/adapter_config.json HTTP/1.1" 404 0
+2025-04-22 14:52:30,851 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /BAAI/bge-small-en-v1.5/resolve/main/config.json HTTP/1.1" 200 0
+2025-04-22 14:52:31,098 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /BAAI/bge-small-en-v1.5/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+2025-04-22 14:52:31,237 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "GET /api/models/BAAI/bge-small-en-v1.5/revision/main HTTP/1.1" 200 148906
+2025-04-22 14:52:31,450 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "GET /api/models/BAAI/bge-small-en-v1.5 HTTP/1.1" 200 148906
+2025-04-22 14:52:31,470 - sentence_transformers.SentenceTransformer - INFO - 2 prompts are loaded, with the keys: ['query', 'text']
+2025-04-22 14:52:31,471 - __main__ - INFO - MCP server components initialized
+2025-04-22 14:52:31,473 - __main__ - INFO - Starting document ingestion...
+2025-04-22 14:52:31,475 - llama_index.core.readers.file.base - DEBUG - > [SimpleDirectoryReader] Total files added: 1
+2025-04-22 14:52:31,522 - fsspec.local - DEBUG - open file: /Users/shaan/Desktop/Projects/cursor_mcp/data/DeepSeek.pdf
+2025-04-22 14:52:31,975 - llama_index.core.node_parser.node_utils - DEBUG - > Adding chunk: DeepSeek-R1: Incentivizing Reasoning Capability...
+2025-04-22 14:52:31,975 - llama_index.core.node_parser.node_utils - DEBUG - > Adding chunk: Contents
+1 Introduction 3
+1.1 Contributions . ....
+2025-04-22 14:52:31,976 - llama_index.core.node_parser.node_utils - DEBUG - > Adding chunk: 1. Introduction
+In recent years, Large Language...
+2025-04-22 14:52:31,976 - llama_index.core.node_parser.node_utils - DEBUG - > Adding chunk: 1.1. Contributions
+Post-Training: Large-Scale R...
+2025-04-22 14:52:32,145 - llama_index.core.node_parser.node_utils - DEBUG - > Adding chunk: • Others: DeepSeek-R1 also excels in a wide ran...
+2025-04-22 14:52:32,145 - llama_index.core.node_parser.node_utils - DEBUG - > Adding chunk: However, these works
+heavily depended on superv...
+2025-04-22 14:52:32,145 - llama_index.core.node_parser.node_utils - DEBUG - > Adding chunk: A conversation between User and Assistant. The ...
+2025-04-22 14:52:32,146 - llama_index.core.node_parser.node_utils - DEBUG - > Adding chunk: Model AIME 2024 MATH-500 GPQA LiveCode CodeForc...
+2025-04-22 14:52:32,146 - llama_index.core.node_parser.node_utils - DEBUG - > Adding chunk: Figure 3 |The average response length of DeepSe...
+2025-04-22 14:52:32,147 - llama_index.core.node_parser.node_utils - DEBUG - > Adding chunk: Question: If 𝑎 >1, then the sum of the real sol...
+2025-04-22 14:52:32,147 - llama_index.core.node_parser.node_utils - DEBUG - > Adding chunk: include:
+• Readability: A key limitation of Dee...
+2025-04-22 14:52:32,148 - llama_index.core.node_parser.node_utils - DEBUG - > Adding chunk: Non-Reasoning data For non-reasoning data, such...
+2025-04-22 14:52:32,149 - llama_index.core.node_parser.node_utils - DEBUG - > Adding chunk: 2024d), Aider 1, LiveCodeBench (Jain et al., 20...
+2025-04-22 14:52:32,150 - llama_index.core.node_parser.node_utils - DEBUG - > Adding chunk: 3.1. DeepSeek-R1 Evaluation
+Benchmark (Metric)
+...
+2025-04-22 14:52:32,150 - llama_index.core.node_parser.node_utils - DEBUG - > Adding chunk: This im-
+provement is primarily attributed to e...
+2025-04-22 14:52:32,151 - llama_index.core.node_parser.node_utils - DEBUG - > Adding chunk: DeepSeek-R1 avoids introducing length bias duri...
+2025-04-22 14:52:32,152 - llama_index.core.node_parser.node_utils - DEBUG - > Adding chunk: Model
+AIME 2024 MATH-500 GPQA Diamond LiveCodeB...
+2025-04-22 14:52:32,152 - llama_index.core.node_parser.node_utils - DEBUG - > Adding chunk: exponentially larger search space. To address t...
+2025-04-22 14:52:32,155 - llama_index.core.node_parser.node_utils - DEBUG - > Adding chunk: References
+AI@Meta. Llama 3.1 model card, 2024....
+2025-04-22 14:52:32,155 - llama_index.core.node_parser.node_utils - DEBUG - > Adding chunk: Minervini. Are we done with mmlu? CoRR, abs/240...
+2025-04-22 14:52:32,161 - llama_index.core.node_parser.node_utils - DEBUG - > Adding chunk: S. Krishna, K. Krishna, A. Mohananey, S. Schwar...
+2025-04-22 14:52:32,162 - llama_index.core.node_parser.node_utils - DEBUG - > Adding chunk: GPQA: A graduate-level google-proof q&a benchma...
+2025-04-22 14:52:32,164 - llama_index.core.node_parser.node_utils - DEBUG - > Adding chunk: D. Silver, J. Schrittwieser, K. Simonyan, I. An...
+2025-04-22 14:52:32,165 - llama_index.core.node_parser.node_utils - DEBUG - > Adding chunk: Appendix
+A. Contributions and Acknowledgments
+C...
+2025-04-22 14:52:32,166 - llama_index.core.node_parser.node_utils - DEBUG - > Adding chunk: Ruyi Chen
+Shanghao Lu
+Shangyan Zhou
+Shanhuang C...
+2025-04-22 14:52:32,166 - llama_index.core.node_parser.node_utils - DEBUG - > Adding chunk: Zijia Zhu
+Zijun Liu*
+Zilin Li
+Ziwei Xie
+Ziyang ...
+2025-04-22 14:52:34,312 - __main__ - INFO - Document ingestion complete
+2025-04-22 14:52:34,312 - __main__ - INFO - Starting MCP server with stdio transport...
+2025-04-22 14:52:34,315 - asyncio - DEBUG - Using selector: KqueueSelector
+2025-04-22 14:56:54,225 - __main__ - ERROR - Fatal error in MCP server: unhandled errors in a TaskGroup (1 sub-exception)
+2025-04-22 14:56:54,241 - __main__ - ERROR -   + Exception Group Traceback (most recent call last):
+  |   File "/Users/shaan/Desktop/Projects/cursor_mcp/server.py", line 90, in <module>
+  |   File "/Users/shaan/Desktop/Projects/cursor_mcp/.venv/lib/python3.13/site-packages/mcp/server/fastmcp/server.py", line 159, in run
+  |     anyio.run(self.run_stdio_async)
+  |     ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  |   File "/Users/shaan/Desktop/Projects/cursor_mcp/.venv/lib/python3.13/site-packages/anyio/_core/_eventloop.py", line 74, in run
+  |     return async_backend.run(func, args, {}, backend_options)
+  |            ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  |   File "/Users/shaan/Desktop/Projects/cursor_mcp/.venv/lib/python3.13/site-packages/anyio/_backends/_asyncio.py", line 2310, in run
+  |     return runner.run(wrapper())
+  |            ~~~~~~~~~~^^^^^^^^^^^
+  |   File "/opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/runners.py", line 118, in run
+  |     return self._loop.run_until_complete(task)
+  |            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  |   File "/Users/shaan/Desktop/Projects/cursor_mcp/.venv/lib/python3.13/site-packages/nest_asyncio.py", line 98, in run_until_complete
+  |     return f.result()
+  |            ~~~~~~~~^^
+  |   File "/opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/futures.py", line 199, in result
+  |     raise self._exception.with_traceback(self._exception_tb)
+  |   File "/opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/tasks.py", line 304, in __step_run_and_handle_result
+  |     result = coro.send(None)
+  |   File "/Users/shaan/Desktop/Projects/cursor_mcp/.venv/lib/python3.13/site-packages/anyio/_backends/_asyncio.py", line 2298, in wrapper
+  |     return await func(*args)
+  |            ^^^^^^^^^^^^^^^^^
+  |   File "/Users/shaan/Desktop/Projects/cursor_mcp/.venv/lib/python3.13/site-packages/mcp/server/fastmcp/server.py", line 460, in run_stdio_async
+  |     async with stdio_server() as (read_stream, write_stream):
+  |                ~~~~~~~~~~~~^^
+  |   File "/opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/contextlib.py", line 221, in __aexit__
+  |     await anext(self.gen)
+  |   File "/Users/shaan/Desktop/Projects/cursor_mcp/.venv/lib/python3.13/site-packages/mcp/server/stdio.py", line 83, in stdio_server
+  |     async with anyio.create_task_group() as tg:
+  |                ~~~~~~~~~~~~~~~~~~~~~~~^^
+  |   File "/Users/shaan/Desktop/Projects/cursor_mcp/.venv/lib/python3.13/site-packages/anyio/_backends/_asyncio.py", line 772, in __aexit__
+  |     raise BaseExceptionGroup(
+  |         "unhandled errors in a TaskGroup", self._exceptions
+  |     ) from None
+  | ExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+  +-+---------------- 1 ----------------
+    | Traceback (most recent call last):
+    |   File "/Users/shaan/Desktop/Projects/cursor_mcp/.venv/lib/python3.13/site-packages/mcp/server/stdio.py", line 64, in stdin_reader
+    |     message = types.JSONRPCMessage.model_validate_json(line)
+    |   File "/Users/shaan/Desktop/Projects/cursor_mcp/.venv/lib/python3.13/site-packages/pydantic/main.py", line 744, in model_validate_json
+    |     return cls.__pydantic_validator__.validate_json(
+    |            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+    |         json_data, strict=strict, context=context, by_alias=by_alias, by_name=by_name
+    |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |     )
+    |     ^
+    | pydantic_core._pydantic_core.ValidationError: 1 validation error for JSONRPCMessage
+    |   Invalid JSON: EOF while parsing a value at line 2 column 0 [type=json_invalid, input_value='\n', input_type=str]
+    |     For further information visit https://errors.pydantic.dev/2.11/v/json_invalid
+    | 
+    | During handling of the above exception, another exception occurred:
+    | 
+    | Traceback (most recent call last):
+    |   File "/opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/tasks.py", line 304, in __step_run_and_handle_result
+    |     result = coro.send(None)
+    |   File "/Users/shaan/Desktop/Projects/cursor_mcp/.venv/lib/python3.13/site-packages/mcp/server/stdio.py", line 66, in stdin_reader
+    |     await read_stream_writer.send(exc)
+    |   File "/Users/shaan/Desktop/Projects/cursor_mcp/.venv/lib/python3.13/site-packages/anyio/streams/memory.py", line 242, in send
+    |     self.send_nowait(item)
+    |     ~~~~~~~~~~~~~~~~^^^^^^
+    |   File "/Users/shaan/Desktop/Projects/cursor_mcp/.venv/lib/python3.13/site-packages/anyio/streams/memory.py", line 213, in send_nowait
+    |     raise BrokenResourceError
+    | anyio.BrokenResourceError
+    +------------------------------------
+

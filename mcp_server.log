@@ -1,0 +1,54 @@
+2025-04-22 14:59:31,694 - __main__ - INFO - Loading environment variables...
+2025-04-22 14:59:31,694 - __main__ - INFO - Initializing MCP server components...
+2025-04-22 14:59:31,700 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-04-22 14:59:33,408 - sentence_transformers.SentenceTransformer - INFO - 2 prompts are loaded, with the keys: ['query', 'text']
+2025-04-22 14:59:33,411 - __main__ - INFO - MCP server components initialized
+2025-04-22 14:59:33,412 - __main__ - INFO - Starting document ingestion...
+2025-04-22 14:59:36,351 - __main__ - INFO - Document ingestion complete
+2025-04-22 14:59:36,351 - __main__ - INFO - Starting MCP server with stdio transport...
+2025-04-22 14:59:36,352 - __main__ - ERROR - Fatal error in MCP server: Already running asyncio in this thread
+2025-04-22 14:59:36,354 - __main__ - ERROR - Traceback (most recent call last):
+  File "/Users/shaan/Desktop/Projects/cursor_mcp/server.py", line 76, in main
+    mcp.run(transport="stdio")
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "/Users/shaan/Desktop/Projects/cursor_mcp/.venv/lib/python3.13/site-packages/mcp/server/fastmcp/server.py", line 159, in run
+    anyio.run(self.run_stdio_async)
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shaan/Desktop/Projects/cursor_mcp/.venv/lib/python3.13/site-packages/anyio/_core/_eventloop.py", line 59, in run
+    raise RuntimeError(f"Already running {asynclib_name} in this thread")
+RuntimeError: Already running asyncio in this thread
+
+2025-04-22 14:59:36,636 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-1' coro=<main() done, defined at /Users/shaan/Desktop/Projects/cursor_mcp/server.py:33> exception=SystemExit(1)>
+Traceback (most recent call last):
+  File "/Users/shaan/Desktop/Projects/cursor_mcp/server.py", line 76, in main
+    mcp.run(transport="stdio")
+  File "/Users/shaan/Desktop/Projects/cursor_mcp/.venv/lib/python3.13/site-packages/mcp/server/fastmcp/server.py", line 159, in run
+    anyio.run(self.run_stdio_async)
+  File "/Users/shaan/Desktop/Projects/cursor_mcp/.venv/lib/python3.13/site-packages/anyio/_core/_eventloop.py", line 59, in run
+    raise RuntimeError(f"Already running {asynclib_name} in this thread")
+RuntimeError: Already running asyncio in this thread
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/shaan/Desktop/Projects/cursor_mcp/server.py", line 85, in <module>
+    asyncio.run(main())
+  File "/Users/shaan/Desktop/Projects/cursor_mcp/.venv/lib/python3.13/site-packages/nest_asyncio.py", line 30, in run
+  File "/Users/shaan/Desktop/Projects/cursor_mcp/.venv/lib/python3.13/site-packages/nest_asyncio.py", line 92, in run_until_complete
+  File "/Users/shaan/Desktop/Projects/cursor_mcp/.venv/lib/python3.13/site-packages/nest_asyncio.py", line 133, in _run_once
+  File "/opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/events.py", line 89, in _run
+  File "/opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/tasks.py", line 386, in __wakeup
+  File "/opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/tasks.py", line 293, in __step
+  File "/opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/tasks.py", line 304, in __step_run_and_handle_result
+  File "/Users/shaan/Desktop/Projects/cursor_mcp/server.py", line 82, in main
+    sys.exit(1)
+SystemExit: 1
+2025-04-22 15:00:31,093 - __main__ - INFO - Loading environment variables...
+2025-04-22 15:00:31,094 - __main__ - INFO - Initializing MCP server components...
+2025-04-22 15:00:31,099 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-04-22 15:00:32,550 - sentence_transformers.SentenceTransformer - INFO - 2 prompts are loaded, with the keys: ['query', 'text']
+2025-04-22 15:00:32,554 - __main__ - INFO - MCP server components initialized
+2025-04-22 15:00:32,557 - __main__ - INFO - Starting document ingestion...
+2025-04-22 15:00:35,470 - __main__ - INFO - Document ingestion complete
+2025-04-22 15:00:35,470 - __main__ - INFO - Starting MCP server with stdio transport...
